@@ -1,5 +1,5 @@
 ## Introduction
-PureArch is a comprehensive guide for installing and configuring Arch Linux. It provides detailed instructions covering the complete installation process, desktop environment setup, and system customization options. The repository is organized into sections for installation steps, desktop environments, system optimization, and troubleshooting references, making it a practical resource for users wanting to install Arch Linux properly. https://wiki.archlinux.org/title/Installation_guide
+PureArch is a step-by-step guide for installing and customizing Arch Linux. It provides detailed instructions from basic installation through desktop environment setup and even creating your own custom installation ISO with Calamares installer. The repository is organized in a logical progression, with each section building on the previous one, making it suitable for both beginners and experienced users looking for a reference. All commands and configurations are thoroughly documented to ensure a smooth installation process. https://wiki.archlinux.org/title/Installation_guide
 
 <br>
 
