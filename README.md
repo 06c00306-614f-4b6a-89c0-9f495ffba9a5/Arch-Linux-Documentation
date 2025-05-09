@@ -1,17 +1,6 @@
-# THE ULTIMATE ARCH LINUX INSTALLATION & CONFIGURATION GUIDE
+## 📑 TABLE OF CONTENTS
 
-<div align="center">
-  <img src="https://archlinux.org/static/logos/archlinux-logo-dark-90dpi.ebdee92a15b3.png" width="450" alt="Arch Linux Logo">
-  <br><br>
-  <h3><em>The definitive, professional-grade, comprehensive guide to installing and configuring Arch Linux</em></h3>
-  <p><strong>From bare metal to fully customized desktop environment</strong></p>
-</div>
-
----
-
-## 📑 MASTER TABLE OF CONTENTS
-
-### PART I: INSTALLATION
+### PART 01: INSTALLATION
 - [Introduction & Prerequisites](#-introduction--prerequisites)
 - [Pre-Installation Setup](#-pre-installation-setup)
 - [Live Environment Preparation](#-live-environment-preparation)
@@ -22,7 +11,7 @@
 - [Bootloader Installation](#-bootloader-installation)
 - [Final Installation Steps](#-final-installation-steps)
 
-### PART II: DESKTOP ENVIRONMENT SETUP
+### PART 02: DESKTOP ENVIRONMENT SETUP
 - [Basic Desktop Setup](#-basic-desktop-setup)
 - [Full Desktop Environments](#-full-desktop-environments)
 - [Window Managers](#-window-managers)
@@ -31,13 +20,13 @@
   - [dwm Window Manager Setup](#dwm-window-manager-setup)
 - [Graphical Environment Essentials](#-graphical-environment-essentials)
 
-### PART III: SYSTEM CUSTOMIZATION
+### PART 03: SYSTEM CUSTOMIZATION
 - [System Optimization](#-system-optimization)
 - [Essential Software](#-essential-software)
 - [AUR Helper Setup](#-aur-helper-setup)
 - [Advanced Customization](#-advanced-customization)
 
-### PART IV: REFERENCE & TROUBLESHOOTING
+### PART 04: REFERENCE AND TROUBLESHOOTING
 - [Post-Installation Reference](#-post-installation-reference)
 - [Comprehensive Troubleshooting](#-comprehensive-troubleshooting)
 - [Security Hardening](#-security-hardening)
