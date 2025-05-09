@@ -40,7 +40,7 @@
 
 ### About This Guide
 
-This comprehensive guide covers the complete process of installing and configuring Arch Linux with a professional approach, prioritizing:
+This guide covers the complete process of installing and configuring Arch Linux with a professional approach, prioritizing:
 
 - **Clarity**: Precise, unambiguous instructions
 - **Efficiency**: Optimized procedures without unnecessary steps
