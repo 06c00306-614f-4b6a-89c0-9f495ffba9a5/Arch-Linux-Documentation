@@ -7,3 +7,7 @@ For automated installation, run this command, else read the documentation
 ```
 archinstall
 ```
+
+<br>
+
+![image](https://github.com/user-attachments/assets/b0148821-fb31-4bcc-aea6-03c518473b00)
