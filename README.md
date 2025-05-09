@@ -810,7 +810,7 @@ Log in with your username and password to continue with desktop environment setu
 
 <br>
 
-# PART II: DESKTOP ENVIRONMENT SETUP
+# PART 02: DESKTOP ENVIRONMENT SETUP
 
 ## 🖥️ Basic Desktop Setup
 
@@ -2304,7 +2304,7 @@ Add this content:
 
 <br>
 
-# PART III: SYSTEM CUSTOMIZATION
+# PART 03: SYSTEM CUSTOMIZATION
 
 ## 🔧 System Optimization
 
@@ -2662,7 +2662,7 @@ key_bindings:
 
 <br>
 
-# PART IV: REFERENCE & TROUBLESHOOTING
+# PART 04: REFERENCE & TROUBLESHOOTING
 
 ## 📄 Post-Installation Reference
 
