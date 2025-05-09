@@ -32,9 +32,9 @@
 - [Security Hardening](#-security-hardening)
 - [Maintenance Tasks](#-maintenance-tasks)
 
----
+<br>
 
-# PART I: INSTALLATION
+# PART 01: INSTALLATION
 
 ## 🔍 Introduction & Prerequisites
 
@@ -76,7 +76,7 @@ The Arch Linux installation process consists of these major phases:
 
 Let's begin with a professional, systematic approach to installation.
 
----
+<br>
 
 ## 📥 Pre-Installation Setup
 
@@ -166,7 +166,7 @@ sudo dd if=archlinux.img.dmg of=/dev/rdiskN bs=1m
 
 4. Save changes and exit (usually F10 → Yes)
 
----
+<br>
 
 ## 💻 Live Environment Preparation
 
@@ -228,7 +228,7 @@ ls /usr/share/kbd/consolefonts/ | grep -E "16|18"
 setfont ter-v16b
 ```
 
----
+<br>
 
 ## 📡 Network Configuration
 
@@ -340,7 +340,7 @@ reflector --country US --age 12 --protocol https --sort rate --save /etc/pacman.
 head -n 5 /etc/pacman.d/mirrorlist
 ```
 
----
+<br>
 
 ## 💾 Disk Preparation
 
@@ -530,7 +530,7 @@ lsblk -f
 
 The output should show both partitions mounted at their respective mount points.
 
----
+<br>
 
 ## 📦 Base System Installation
 
@@ -591,7 +591,7 @@ arch-chroot /mnt
 
 Your command prompt should change, indicating you're now working inside your new Arch Linux installation. All commands from this point forward will affect your installed system, not the live environment.
 
----
+<br>
 
 ## ⚙️ System Configuration
 
@@ -676,7 +676,7 @@ mkinitcpio -P
 
 This process will take a moment and will output a message for each kernel image it creates.
 
----
+<br>
 
 ## 🔄 Bootloader Installation
 
@@ -724,7 +724,7 @@ grub-mkconfig -o /boot/grub/grub.cfg
 
 The command should output several lines indicating that it found the Linux kernel and initramfs images.
 
----
+<br>
 
 ## 🔧 Final Installation Steps
 
@@ -808,7 +808,7 @@ Remove the installation media during reboot. Your system should now boot into th
 
 Log in with your username and password to continue with desktop environment setup.
 
----
+<br>
 
 # PART II: DESKTOP ENVIRONMENT SETUP
 
@@ -875,7 +875,7 @@ Alternative display managers:
 - SDDM (for KDE): `sudo pacman -S sddm`
 - GDM (for GNOME): `sudo pacman -S gdm`
 
----
+<br>
 
 ## 🖼️ Full Desktop Environments
 
@@ -949,7 +949,7 @@ sudo systemctl enable lightdm
 sudo reboot
 ```
 
----
+<br>
 
 ## 🪟 Window Managers
 
@@ -2200,7 +2200,7 @@ Then select "dwm" from the session menu at the login screen.
 startx
 ```
 
----
+<br>
 
 ## 🎨 Graphical Environment Essentials
 
@@ -2302,7 +2302,7 @@ Add this content:
 </fontconfig>
 ```
 
----
+<br>
 
 # PART III: SYSTEM CUSTOMIZATION
 
@@ -2368,7 +2368,7 @@ ACTION=="add|change", KERNEL=="sd[a-z]|mmcblk[0-9]*", ATTR{queue/rotational}=="0
 ACTION=="add|change", KERNEL=="sd[a-z]", ATTR{queue/rotational}=="1", ATTR{queue/scheduler}="bfq"
 ```
 
----
+<br>
 
 ## 📦 Essential Software
 
@@ -2432,7 +2432,7 @@ sudo pacman -S htop bashtop neofetch
 sudo pacman -S gparted ncdu
 ```
 
----
+<br>
 
 ## 🔄 AUR Helper Setup
 
@@ -2475,7 +2475,7 @@ yay -S ttf-ms-fonts
 yay -S timeshift
 ```
 
----
+<br>
 
 ## 🎨 Advanced Customization
 
@@ -2660,7 +2660,7 @@ key_bindings:
   - { key: Minus,    mods: Control,       action: DecreaseFontSize }
 ```
 
----
+<br>
 
 # PART IV: REFERENCE & TROUBLESHOOTING
 
@@ -2746,7 +2746,7 @@ ip addr show
 ping archlinux.org
 ```
 
----
+<br>
 
 ## 🛠️ Comprehensive Troubleshooting
 
@@ -2905,7 +2905,7 @@ sudo pacman -S --force package_name
 sudo pacman -Qk
 ```
 
----
+<br>
 
 ## 🔒 Security Hardening
 
@@ -2958,7 +2958,7 @@ Add this line:
 password required pam_pwquality.so retry=3 minlen=10 difok=3 ucredit=-1 lcredit=-1 dcredit=-1 ocredit=-1
 ```
 
----
+<br>
 
 ## 🔄 Maintenance Tasks
 
@@ -3014,7 +3014,7 @@ sudo systemctl --failed
 journalctl -b -p err
 ```
 
----
+<br>
 
 <div align="center">
   <p><strong>Congratulations on your professional Arch Linux installation!</strong></p>
