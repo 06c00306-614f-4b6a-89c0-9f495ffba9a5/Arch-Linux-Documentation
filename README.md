@@ -36,7 +36,7 @@
 
 # PART 01: INSTALLATION
 
-## 🔍 Introduction & Prerequisites
+## 🔍 Introduction and Prerequisites
 
 ### About This Guide
 
@@ -3013,12 +3013,3 @@ sudo systemctl --failed
 # View recent logs
 journalctl -b -p err
 ```
-
-<br>
-
-<div align="center">
-  <p><strong>Congratulations on your professional Arch Linux installation!</strong></p>
-  <p>You now have a fully customized, optimized, and powerful system built exactly to your specifications.</p>
-  <p><em>Remember: Arch Linux is a rolling release distribution - stay up to date with <code>sudo pacman -Syu</code>.</em></p>
-  <p>This guide is maintained by the Arch Linux community. For the latest updates, visit the <a href="https://wiki.archlinux.org/">Arch Wiki</a>.</p>
-</div>
